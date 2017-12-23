@@ -1,0 +1,16 @@
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html">
+    <h:head>
+        <title>Admin page</title>
+    </h:head>
+    <h:body>
+    
+<center><h2>Admin's Home</h2></center>
+
+Welcome <%=request.getAttribute("username") %>
+        
+        <div style="text-align: right"><a href="<%=request.getContextPath()%>/LogoutServlet">Logout</a></div>
+        
+    </h:body>
+</html> 
